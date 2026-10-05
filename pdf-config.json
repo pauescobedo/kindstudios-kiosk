@@ -43,7 +43,7 @@
         "items": [
           { "title": "General", "pdf": "PDF/Vice Group/Baby One More Time/Baby One More Time.pdf" },
           { "title": "Acordes", "pdf": "PDF/Vice Group/Baby One More Time/Baby One More Time - Acords.pdf" },
-          { "title": "Acordes Transpuestos", "pdf": "PDF/Vice Group/Baby One More Time/Baby One More Time - Acords Transposats.pdf" },
+          { "title": "Acordes (Am)", "pdf": "PDF/Vice Group/Baby One More Time/Baby One More Time - Acords (Am).pdf" },
           { "title": "Teclado", "pdf": "PDF/Vice Group/Baby One More Time/Baby One More Time - Teclat.pdf" },
           { "title": "Letra", "pdf": "PDF/Vice Group/Baby One More Time/Baby One More Time - Lletra.pdf" }
         ]
@@ -53,17 +53,9 @@
         "items": [
           { "title": "General", "pdf": "PDF/Vice Group/Sweet Caroline/Sweet Caroline.pdf" },
           { "title": "Acordes", "pdf": "PDF/Vice Group/Sweet Caroline/Sweet Caroline - Acords.pdf" },
+          { "title": "Acordes (C)", "pdf": "PDF/Vice Group/Sweet Caroline/Sweet Caroline - Acords (C).pdf" },
           { "title": "Teclado", "pdf": "PDF/Vice Group/Sweet Caroline/Sweet Caroline - Teclat.pdf" },
           { "title": "Letra", "pdf": "PDF/Vice Group/Sweet Caroline/Sweet Caroline - Lletra.pdf" }
-        ]
-      },
-      {
-        "title": "Livin' On A Prayer",
-        "items": [
-          { "title": "General", "pdf": "PDF/Vice Group/Livin' On A Prayer/Livin' On A Prayer.pdf" },
-          { "title": "Acordes", "pdf": "PDF/Vice Group/Livin' On A Prayer/Livin' On A Prayer - Acords.pdf" },
-          { "title": "Teclado", "pdf": "PDF/Vice Group/Livin' On A Prayer/Livin' On A Prayer - Teclat.pdf" },
-          { "title": "Letra", "pdf": "PDF/Vice Group/Livin' On A Prayer/Livin' On A Prayer - Lletra.pdf" }
         ]
       },
       {
@@ -78,9 +70,9 @@
       {
         "title": "Have You Ever Seen The Rain?",
         "items": [
-          { "title": "General", "pdf": "PDF/Vice Group/Have You Ever Seen The Rain?/Have You Ever Seen The Rain.pdf" },
-          { "title": "Acordes", "pdf": "PDF/Vice Group/Have You Ever Seen The Rain?/Have You Ever Seen The Rain - Acords.pdf" },
-          { "title": "Teclado", "pdf": "PDF/Vice Group/Have You Ever Seen The Rain?/Have You Ever Seen The Rain - Teclat.pdf" },
+          { "title": "General", "pdf": "PDF/Vice Group/Have You Ever Seen The Rain?/Have You Ever Seen The Rain?.pdf" },
+          { "title": "Acordes", "pdf": "PDF/Vice Group/Have You Ever Seen The Rain?/Have You Ever Seen The Rain? - Acords.pdf" },
+          { "title": "Teclado", "pdf": "PDF/Vice Group/Have You Ever Seen The Rain?/Have You Ever Seen The Rain? - Teclat.pdf" },
           { "title": "Letra", "pdf": "PDF/Vice Group/Have You Ever Seen The Rain?/Have You Ever Seen The Rain - Lletra.pdf" }
         ]
       },

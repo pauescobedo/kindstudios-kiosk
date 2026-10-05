@@ -1,4 +1,4 @@
-const CACHE = "kind-studios-runtime-v1";
+const CACHE = "kind-studios-runtime-v2";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(self.skipWaiting());

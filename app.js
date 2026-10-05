@@ -74,7 +74,7 @@
 
   async function loadPdfConfig() {
     try {
-      const response = await fetch("pdf-config.json?v=20260929-1", { cache: "no-store" });
+      const response = await fetch("pdf-config.json?v=20261005-2", { cache: "no-store" });
       if (!response.ok) throw new Error("No disponible");
       const data = await response.json();
       cfg.schedules = data.schedules || {};
@@ -161,7 +161,7 @@
 
   async function loadArchivedChecklistStatus() {
     try {
-      const response = await fetch("checklist-status.json?v=20260929-1", { cache: "no-store" });
+      const response = await fetch("checklist-status.json?v=20261005-1", { cache: "no-store" });
       if (!response.ok) return;
       archivedChecklistStatus = await response.json();
       if ($("#checklist-screen").classList.contains("active")) renderChecklist();
@@ -600,5 +600,5 @@
     if (event.touches.length > 1 && !event.target.closest("#document-viewer")) event.preventDefault();
   }, { passive: false });
   document.addEventListener("gesturestart", (event) => event.preventDefault(), { passive: false });
-  if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js?v=20260906-2", { updateViaCache: "none" }));
+  if ("serviceWorker" in navigator) window.addEventListener("load", () => navigator.serviceWorker.register("sw.js?v=20261005-1", { updateViaCache: "none" }));
 })();
